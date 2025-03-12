@@ -1,0 +1,35 @@
+name: new_pro
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.6.1 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # Firebase & Google Cloud
+  firebase_core: ^3.12.1
+  firebase_auth: ^5.5.1
+  firebase_analytics: ^11.4.1
+  cloud_firestore: ^5.6.5
+  firebase_storage: ^12.4.1
+
+  # UI & State Management
+  cupertino_icons: ^1.0.8
+  get_it: ^8.0.3
+  flutter_animate: ^4.5.2
+  mailer: ^6.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
